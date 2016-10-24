@@ -1,0 +1,107 @@
+/*初始化*/
+*{
+	padding: 0px;
+	margin:0px;
+}
+/*body*/
+body{
+	background-color:#FFF;
+	background-image: url(../img/beijing.gif) ;
+}
+/*clear float*/
+.clearfix:after{
+	clear:both;
+	content:'.';
+	display:block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+}
+/*content*/
+.content{
+	background-color: #fff;
+	width: 710px;
+	margin:8px auto ;
+	border-radius: 25px;
+}
+/*logo*/
+.logo_box {
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+/*nav*/
+header nav{
+	float:right;
+	margin-top: 65px;
+	margin-right: 28px;
+
+}
+header nav a{
+	text-decoration:none;
+	font-size: 16px;
+	color: #ff0099;
+}
+/*table*/
+table{
+	width: 638px;
+	margin:25px auto 0px;
+     border-collapse: collapse;/* 边框合并属性  */
+	border-color: #cccccc;
+	font-size: 12px;
+}
+caption {
+    margin-bottom: 22px;
+}
+/*thead*/
+thead td{
+	padding: 4px 6px;
+}
+span.warn{
+	color: #ff0000;
+}
+/*tbody*/
+.group{
+	background-color: #eeeeee;
+}
+.group h3{
+	padding: 5px 15px;
+	font-size: 14px;
+}
+.describ{
+	color: #0000ff;
+	font-size: 12px;
+	line-height:16px;
+}
+tbody h3{
+	color: #0033ae;
+}
+tbody td{
+	padding: 3px;
+}
+tbody td.info{
+	text-align:right;
+	padding: 3px;
+	font-size: 12px;
+}
+td h4{
+	margin: 8px 0px;
+}
+td label{
+	line-height: 25px;
+    margin-left: 6px;
+    font-weight: normal;
+}
+/*tfoot*/
+input[type="submit"]{
+	width: 84px;
+	height: 20px;
+}
+/*footer*/
+footer {
+    padding-bottom: 35px;
+}
+footer p{
+	font-size: 10px;
+	text-align: center;
+}
